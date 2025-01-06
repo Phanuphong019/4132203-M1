@@ -27,22 +27,20 @@ $car = [
     "year" => $plus_fn
 ];
 
-echo $car["year"](2020, 5);
+// echo $car["year"](2020, 5);
 
-function sayHello($name) {
+function sayHello($name)
+{
     echo "Hello $name";
 }
 
-$plus_fn = function ($a,$b){
+$plus_fn = function ($a, $b) {
     return $a + $b;
 }
-
-
 
 ?>
 
 <?php
 //database
 phpinfo()
-
 ?>
